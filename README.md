@@ -1,4 +1,4 @@
-## This react shop app which use ReduxSaga, REST API, TypeScript and Axios
+## This is React shop app which use ReduxSaga, REST API, TypeScript and Axios
 
 ## For React App Launch:
 cd .\shop\
