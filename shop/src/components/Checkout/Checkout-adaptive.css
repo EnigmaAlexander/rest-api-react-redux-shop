@@ -1,0 +1,33 @@
+@media screen and (max-width: 1425px) {
+    .checkout-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .additional-checkout-details{
+        margin: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .checkout-details>ul{
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    .checkout{
+        width: 100%;
+        transform: scale(0.9);
+    }
+    .checkout-details>ul>li:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+    .name-inputs>div>input{
+        width: 100%;
+    }
+    .name-inputs>div{
+        margin-right: 0;
+    }
+}

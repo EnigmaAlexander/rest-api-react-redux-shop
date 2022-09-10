@@ -1,0 +1,234 @@
+.banner{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://jeger.pl/blog/wp-content/uploads/2018/02/9_LOFT.jpg);
+    background-size: cover;
+    background-color: #282828;
+    background-attachment: fixed;
+}
+.banner>span{
+    font-weight: 500;
+    font-size: 55px;
+    color: white;
+    font-family: Poppins ,sans-serif;
+}
+table{
+    border-collapse: collapse;
+    padding: 84px 176px 50px 176px;
+    box-sizing: border-box;
+}
+th{
+    font-family: Poppins,sans-serif;
+    color: #282828;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 29px 0 19px;
+    border-bottom: 1px solid #dfdfdf;
+    box-sizing: border-box;
+}
+.empty-th-1{
+    width: 151px;
+}
+.empty-th-2{
+    width: 90px;
+}
+th:nth-child(3){
+    width: 405px;
+}
+th:nth-child(4){
+    width: 157px;
+}
+th:nth-child(5){
+    width: 315px;
+}
+th:nth-child(6){
+    width: 182px;
+}
+td{
+    padding: 25px 0;
+    font-family: Poppins,sans-serif;
+    border-bottom: 1px solid #dfdfdf;
+    box-sizing: border-box;
+}
+.td-1{
+    padding-left: 38px;
+    color: #b4b4b4;
+    font-family: "eleganticons" ;
+    font-size: 20px;
+    line-height: inherit;
+    font-style: normal;
+    font-weight: 300;
+    cursor: pointer;
+    width: 151px;
+
+}
+.td-1:hover{ 
+    color: #939393;
+}
+td:nth-child(3){
+    width: 405px;
+}
+td:nth-child(4){
+    width: 157px;
+    text-align: inherit;
+}
+td:nth-child(5){
+    width: 315px;
+}
+td:nth-child(6){
+    width: 182px;
+    display: flex;
+    align-items: center;
+    height: 153px;
+
+}
+.cart_item_title{
+    color: #939393;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.cart_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 84px 0px 50px 0px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart_item_img{
+    width: 80px;
+    height: 102px;
+    background-size: cover;
+    padding-right: 10px;
+}
+.counter{
+    width: 99px;
+    height: 41px;
+    border: 1px solid #dfdfdf;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qty{
+    height: 39px;
+    width: 44px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    color: #939393;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+}
+.qty-arrow{
+    font-family: "eleganticons";
+    color: #939393;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart-amount{
+    position: absolute;
+    font-family: Poppins,sans-serif;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 50px;
+    font-size: 13px;
+}
+.cart-empty-section{
+    width: 1100px;
+    height: 53vh;
+}
+.cart-empty-title{
+    display: block;
+    font-size: 35px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #282828;
+    margin: 40px 0 33px;
+    font-family:"Poppins" ,sans-serif;
+    font-weight: 300;
+}
+.cart-empty-btn{
+    transition: background-color .35s,border-color .35s,color .1s cubic-bezier(.77,0,.175,1);
+    padding: 8px 23px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #282828;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    border-radius: 2px;
+    width: auto;
+    margin: 0;
+    font-family:"Poppins" ,sans-serif;
+    line-height: 2em;
+    font-weight: 500;
+    outline: 0;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+.cart-empty-btn:hover{
+    background-color: #fff;
+    border: #282828 solid 1px;
+    color: #282828;
+}
+.cart-empty-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.total{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.total>span{
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 100px;
+}
+.total-title{
+    width: 160px;
+    padding-right: 140px;
+    font-size: 15px;
+    padding: 14px 5px 14px 0;
+}
+.total-price{
+    min-width: 150px;
+    width: 1140px;
+    font-size: 15px;
+}
+.total-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.check-out{
+    box-sizing: border-box;
+    display: inline-block;
+    width: fit-content;
+}

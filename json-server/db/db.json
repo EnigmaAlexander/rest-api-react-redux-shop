@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Radio",
+      "price": 93,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-4.jpg",
+      "quantity": 1,
+      "type": "Wooden",
+      "category": "Decoration",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": 2,
+      "title": "Bin",
+      "price": 50,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img1-500x500.jpg",
+      "quantity": 1,
+      "type": "White",
+      "category": "Wooden",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": 3,
+      "title": "Chair",
+      "price": 189,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-1-500x588.jpg",
+      "quantity": 1,
+      "type": "chair",
+      "category": "White",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": 4,
+      "title": "Cahir",
+      "price": 297,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-6.jpg",
+      "quantity": 1,
+      "type": "chair",
+      "category": "Decoration",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": 5,
+      "title": "Lamp",
+      "price": 150,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-3-500x588.jpg",
+      "quantity": 1,
+      "type": "lamp",
+      "category": "Lights",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": 6,
+      "title": "Sofa",
+      "price": 145,
+      "img": "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img1-500x500.jpg",
+      "quantity": 1,
+      "type": "chair",
+      "category": "Furniture",
+      "stock_status": "In Stock"
+    }
+  ],
+  "cart": [],
+  "wishlist": []
+}

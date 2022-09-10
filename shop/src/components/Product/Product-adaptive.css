@@ -1,0 +1,28 @@
+@media screen and (max-width: 1250px) {
+    .product-page-container{
+        transform: scale(0.8);
+        margin-bottom: 30px ;
+        padding-top: 30px;
+        width: auto;
+    }
+    .img-page-container-img{
+        transform: scale(0.7);
+        box-sizing: border-box;
+    }
+    .product-page-info{
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .product-page-container{
+        transform: scale(0.7);
+    }
+}
+@media screen and (max-width: 940px) {
+    .product-page-container{
+        transform: scale(0.6);
+    }
+    .img-page-container-img{
+        transform: scale(0.5);
+    }
+}

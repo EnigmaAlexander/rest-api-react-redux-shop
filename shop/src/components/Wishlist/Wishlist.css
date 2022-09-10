@@ -1,0 +1,22 @@
+.wishlist-banner{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/wishlistBG.jpg);
+    background-size: cover;
+    background-color: #282828;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.wishlist-banner>span{
+    font-weight: 500;
+    font-size: 55px;
+    color: white;
+    font-family: Poppins ,sans-serif;
+}
+.wishlist-add-to-cart-btn{
+ margin: 0;
+}

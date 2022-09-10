@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+}
+.footer-links{
+    width: 1300px;
+    height: 100%;
+    padding: 56px 0 66px;
+    box-sizing: border-box;
+    display: flex;
+}
+.about, .link-list{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+}
+.about>h3, .link-list>h3{
+    color: white;
+    font-size: 15px;
+}
+.about>p{
+    margin: 10px 0;
+    color: #939393;
+    font-size: 13px;
+}
+.link-list>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #939393;
+    font-size: 13px;
+}
+.footer-links>div{
+    display: flex;
+    width: 100%;
+}

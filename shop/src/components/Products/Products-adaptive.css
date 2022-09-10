@@ -1,0 +1,13 @@
+@media screen and (max-width: 1400px) {
+    .products{
+        width: 970px;
+    }
+    .products-filter>img{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .product-card{
+        transform: scale(0.9);
+    }
+}

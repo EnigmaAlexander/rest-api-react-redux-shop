@@ -1,0 +1,10 @@
+@media screen and (max-width: 1425px) {
+    .footer-links{
+       flex-direction: column;
+       padding-left: 50px;
+    }
+    .footer-links>div:nth-child(2){
+        margin-top: 30px;
+    }
+    
+  }
